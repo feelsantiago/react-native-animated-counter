@@ -1,16 +1,31 @@
 {
     "name": "react-native-animated-counter",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
+    "version": "0.1.0",
+    "description": "Animated Counter Component For React Native",
+    "main": "dist/index.js",
     "files": [
         "/dist"
     ],
+    "types": "dist/index.d.ts",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/feelsantiago/react-native-animated-counter"
+    },
     "scripts": {
         "start": "ts-node index.ts",
         "build": "tsc",
         "prepare": "npm run build"
     },
+    "keywords": [
+        "react-native",
+        "react-component",
+        "counter",
+        "android",
+        "ios",
+        "animated"
+    ],
+    "author": "Filipe Santiago <porto.santiago@hotmail.com>",
+    "license": "MIT",
     "dependencies": {
         "@types/eases": "^1.0.1",
         "eases": "^1.0.8",
@@ -27,8 +42,5 @@
         "prettier": "^2.0.4",
         "react-test-renderer": "16.13.1",
         "typescript": "^3.8.3"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "ISC"
+    }
 }
