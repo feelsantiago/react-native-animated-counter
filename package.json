@@ -30,7 +30,7 @@
         "@types/eases": "^1.0.1",
         "eases": "^1.0.8",
         "react": "16.13.1",
-        "react-native": "0.63.0"
+        "react-native": "0.64.1"
     },
     "devDependencies": {
         "@react-native-community/eslint-config": "^1.1.0",
